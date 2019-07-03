@@ -11,6 +11,7 @@ class App extends Component {
         <div>Age : <span>{this.props.age}</span>
           <button onClick={this.props.onAgeUp}>Age up</button>
           <button onClick={this.props.onAgeDown}>Age down</button>
+          {/* A JSX comment */}
         </div>
         <SeconComponent />
       </div>
